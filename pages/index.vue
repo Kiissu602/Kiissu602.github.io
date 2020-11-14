@@ -30,7 +30,7 @@
         </v-col>
         <v-col>
           <p class="text-subtitle-1">
-            <a class="click" :href="i.link">{{ i.dat }}</a>
+            <a class="click" :href="i.link" target="_blank">{{ i.dat }}</a>
           </p>
         </v-col>
       </v-row>
