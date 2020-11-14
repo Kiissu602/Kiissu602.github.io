@@ -45,6 +45,64 @@
           ><p class="text-center text-subtitle-1">{{ i }}</p>
         </v-col>
       </v-row>
+      <v-divider class="fline grey darken-2 my-4" /><v-row>
+        <v-col>
+          <p class="proj text-h6 text-center text-subtitle-1">Project</p>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col>
+          <v-card>
+            <v-parallax
+              height="150"
+              :src="require(`~/assets/prog.png`)"
+            ></v-parallax>
+            <v-card-title
+              ><a
+                class="click"
+                href="https://github.com/Kiissu602/ProGReviews"
+                target="_blank"
+                >ProGReviews</a
+              ></v-card-title
+            >
+          </v-card>
+        </v-col>
+        <v-col>
+          <v-card>
+            <v-parallax
+              height="150"
+              :src="require(`~/assets/java.png`)"
+            ></v-parallax>
+            <v-card-title>
+              <a
+                class="click"
+                href="https://github.com/Kiissu602/BombServive"
+                target="_blank"
+                >BombServive</a
+              ></v-card-title
+            >
+          </v-card>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col>
+          <v-card>
+            <v-parallax
+              height="150"
+              :src="require(`~/assets/database.png`)"
+            ></v-parallax>
+            <v-card-title>
+              <a
+                class="click"
+                href="https://github.com/Kiissu602/204321-client-project"
+                target="_blank"
+                >LibrarySystemManagement</a
+              ></v-card-title
+            >
+          </v-card>
+        </v-col>
+        <v-col> </v-col>
+      </v-row>
       <v-divider class="fline grey darken-2 my-4" />
       <v-row class="mt-4">
         <v-col>
@@ -82,6 +140,7 @@
           </p>
         </v-col>
       </v-row>
+      <v-divider class="fline grey darken-2 my-4" />
     </v-container>
   </div>
 </template>
@@ -150,7 +209,8 @@ export default {
 .prof,
 .skll,
 .edu,
-.exp {
+.exp,
+.proj {
   font-weight: 600;
 }
 .det {
