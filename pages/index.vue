@@ -134,9 +134,13 @@
       </v-row>
       <v-row>
         <v-col>
-          <p class="text-center text-subtitle-1">
+          <p class="day text-center text-subtitle-1">
             5 Days Major Camp TuTor 2020
           </p>
+        </v-col>
+      </v-row>
+      <v-row no-gutters>
+        <v-col offset="2">
           <p class="text-center text-subtitle-1">
             - Teach some Angular topic to freshmen
           </p>
@@ -144,6 +148,7 @@
       </v-row>
       <v-divider class="fline grey darken-2 my-4" />
     </v-container>
+    <link href="style.css" rel="stylesheet" type="text/css" media="print" />
   </div>
 </template>
 
@@ -216,7 +221,8 @@ export default {
   font-weight: 600;
   color: #7b1fa2;
 }
-.det {
+.det,
+.day {
   font-weight: 500;
 }
 </style>
