@@ -173,16 +173,9 @@
           </p>
         </v-col>
       </v-row>
-      <v-row no-gutters>
-        <v-col sm="4"></v-col>
-        <v-col no-gutters>
-          <ul>
-            <li class="text-left text-subtitle-1">
-              Teach some Angular topic to freshmen
-            </li>
-          </ul>
-        </v-col>
-      </v-row>
+      <ul>
+        <li class="text-subtitle-1">Teach some Angular topic to freshmen</li>
+      </ul>
     </v-container>
     <link href="style.css" rel="stylesheet" type="text/css" media="print" />
   </div>
@@ -232,8 +225,10 @@ export default {
 </script>
 
 <style scoped>
+ul,
 li {
   text-align: center;
+  list-style: inside;
 }
 .ava {
   margin-top: -110px;
