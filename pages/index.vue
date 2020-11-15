@@ -25,10 +25,10 @@
         </v-col>
       </v-row>
       <v-row v-for="(i, index) in profile" :key="index">
-        <v-col>
+        <v-col offset="2" sm="3">
           <p class="det text-right text-subtitle-1">{{ i.tag }}</p>
         </v-col>
-        <v-col>
+        <v-col offset="1">
           <p class="text-subtitle-1">
             <a class="click" :href="i.link" target="_blank">{{ i.dat }}</a>
           </p>
@@ -110,7 +110,9 @@
           <v-col>
             <p class="text-center text-subtitle-1">Chaing Mai University</p>
             <br />
-            <p class="text-center text-subtitle-1">B.S. Computer</p>
+            <p class="text-center text-subtitle-1">
+              3rd year Computer Science student
+            </p>
             <br />
             <p class="text-center text-subtitle-1">Current GPA 2.44</p>
             <br />
@@ -212,6 +214,7 @@ export default {
 .exp,
 .proj {
   font-weight: 600;
+  color: #7b1fa2;
 }
 .det {
   font-weight: 500;
