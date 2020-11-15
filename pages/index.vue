@@ -120,7 +120,22 @@
             </v-row>
           </v-card>
         </v-col>
-        <v-col> </v-col>
+        <v-col>
+          <v-card>
+            <v-parallax
+              height="150"
+              :src="require(`~/assets/data.png`)"
+            ></v-parallax>
+            <v-card-title>
+              <a
+                class="click"
+                href="https://drive.google.com/drive/folders/1OAk308HmrmONOWZFPMBvCnmd91ToFa2_"
+                target="_blank"
+                >Web Movie Compare</a
+              ></v-card-title
+            ><v-card-text>Python</v-card-text>
+          </v-card>
+        </v-col>
       </v-row>
       <v-divider class="fline grey darken-2 my-4" />
       <v-row class="mt-4">
