@@ -173,9 +173,15 @@
           </p>
         </v-col>
       </v-row>
-      <ul>
-        <li class="text-subtitle-1">Teach some Angular topic to freshmen</li>
-      </ul>
+      <v-row>
+        <v-col class="d-flex justify-center">
+          <ul>
+            <li class="text-subtitle-1">
+              Teach some Angular topic to freshmen
+            </li>
+          </ul>
+        </v-col></v-row
+      >
     </v-container>
     <link href="style.css" rel="stylesheet" type="text/css" media="print" />
   </div>
