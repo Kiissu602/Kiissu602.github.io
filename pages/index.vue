@@ -65,6 +65,7 @@
                 >ProGReviews</a
               ></v-card-title
             >
+            <v-card-text>Vue.js</v-card-text>
           </v-card>
         </v-col>
         <v-col>
@@ -80,7 +81,7 @@
                 target="_blank"
                 >BombServive</a
               ></v-card-title
-            >
+            ><v-card-text>Java</v-card-text>
           </v-card>
         </v-col>
       </v-row>
@@ -91,14 +92,32 @@
               height="150"
               :src="require(`~/assets/database.png`)"
             ></v-parallax>
-            <v-card-title>
-              <a
-                class="click"
-                href="https://github.com/Kiissu602/204321-client-project"
-                target="_blank"
-                >LibrarySystemManagement</a
-              ></v-card-title
-            >
+            <v-card-title> LibrarySystemManagement</v-card-title>
+            <v-card-text>Vue.js</v-card-text>
+            <v-row no-gutters>
+              <v-col>
+                <v-card-actions
+                  ><v-btn
+                    class="click"
+                    href="https://github.com/Kiissu602/204321-client-project"
+                    target="_blank"
+                    text
+                    >Frontend</v-btn
+                  >
+                </v-card-actions>
+              </v-col>
+              <v-col>
+                <v-card-actions
+                  ><v-btn
+                    class="click"
+                    href="https://github.com/Kiissu602/204321-server-project"
+                    target="_blank"
+                    text
+                    >Backend</v-btn
+                  >
+                </v-card-actions>
+              </v-col>
+            </v-row>
           </v-card>
         </v-col>
         <v-col> </v-col>
