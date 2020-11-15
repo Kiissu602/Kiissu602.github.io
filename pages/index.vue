@@ -25,10 +25,10 @@
         </v-col>
       </v-row>
       <v-row v-for="(i, index) in profile" :key="index">
-        <v-col offset="2" sm="3">
+        <v-col sm="5">
           <p class="det text-right text-subtitle-1">{{ i.tag }}</p>
         </v-col>
-        <v-col offset="1">
+        <v-col>
           <p class="text-subtitle-1">
             <a class="click" :href="i.link" target="_blank">{{ i.dat }}</a>
           </p>
@@ -174,7 +174,8 @@
         </v-col>
       </v-row>
       <v-row no-gutters>
-        <v-col offset="4" no-gutters>
+        <v-col sm="4"></v-col>
+        <v-col no-gutters>
           <ul>
             <li class="text-left text-subtitle-1">
               Teach some Angular topic to freshmen
