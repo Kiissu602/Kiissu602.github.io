@@ -95,7 +95,7 @@
             <v-card-title> LibrarySystemManagement</v-card-title>
             <v-card-text>Vue.js, C#</v-card-text>
             <v-row no-gutters>
-              <v-col>
+              <v-col no-gutters>
                 <v-card-actions
                   ><v-btn
                     class="click"
@@ -106,7 +106,7 @@
                   >
                 </v-card-actions>
               </v-col>
-              <v-col>
+              <v-col no-gutters>
                 <v-card-actions
                   ><v-btn
                     class="click"
