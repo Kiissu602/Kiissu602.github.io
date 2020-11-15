@@ -130,7 +130,7 @@
             <p class="text-center text-subtitle-1">Chaing Mai University</p>
             <br />
             <p class="text-center text-subtitle-1">
-              3rd year Computer Science student
+              3rd year Computer Science Student
             </p>
             <br />
             <p class="text-center text-subtitle-1">Current GPA 2.44</p>
@@ -154,7 +154,7 @@
       <v-row>
         <v-col>
           <p class="day text-center text-subtitle-1">
-            5 Days Major Camp TuTor 2020
+            5 Days Major Camp Tutor 2020
           </p>
         </v-col>
       </v-row>
