@@ -159,13 +159,14 @@
         </v-col>
       </v-row>
       <v-row no-gutters>
-        <v-col offset="2">
-          <p class="text-center text-subtitle-1">
-            - Teach some Angular topic to freshmen
-          </p>
+        <v-col offset="4" no-gutters>
+          <ul>
+            <li class="text-left text-subtitle-1">
+              Teach some Angular topic to freshmen
+            </li>
+          </ul>
         </v-col>
       </v-row>
-      <v-divider class="fline grey darken-2 my-4" />
     </v-container>
     <link href="style.css" rel="stylesheet" type="text/css" media="print" />
   </div>
@@ -182,8 +183,8 @@ export default {
       },
       {
         tag: 'Email:',
-        dat: 'pichai.namwan602@gmail.com',
-        link: 'mailto:pichai.namwan602@gmail.com',
+        dat: 'pichai.n602@gmail.com',
+        link: 'mailto:pichai.n602@gmail.com',
       },
       {
         tag: 'Phone:',
@@ -215,6 +216,9 @@ export default {
 </script>
 
 <style scoped>
+li {
+  text-align: center;
+}
 .ava {
   margin-top: -110px;
 }
