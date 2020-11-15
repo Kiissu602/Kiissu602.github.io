@@ -93,7 +93,7 @@
               :src="require(`~/assets/database.png`)"
             ></v-parallax>
             <v-card-title> LibrarySystemManagement</v-card-title>
-            <v-card-text>Vue.js</v-card-text>
+            <v-card-text>Vue.js, C#</v-card-text>
             <v-row no-gutters>
               <v-col>
                 <v-card-actions
