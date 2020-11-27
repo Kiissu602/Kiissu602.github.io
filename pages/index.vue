@@ -148,7 +148,7 @@
               3rd year Computer Science Student
             </p>
             <br />
-            <p class="text-center text-subtitle-1">Current GPA 2.44</p>
+            <p class="text-center text-subtitle-1">Current GPA 2.65</p>
             <br />
             <p class="text-center text-subtitle-1">
               Business Administration Minor Subject
@@ -264,5 +264,9 @@ li {
 .det,
 .day {
   font-weight: 500;
+}
+.p {
+  display: flex;
+  justify-content: center;
 }
 </style>
